@@ -27,7 +27,7 @@ QBCore.Functions.CreateUseableItem("igne", function(source, item)
     TriggerClientEvent("spec-bagimlilik:client:ignekullan", source)
 end)
 
-QBCore.Functions.CreateUseableItem("police_stormram", function(source, item)
+QBCore.Functions.CreateUseableItem("kanignesi", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
     TriggerClientEvent("spec-bagimlilik:client:kanal", source)
 end)
